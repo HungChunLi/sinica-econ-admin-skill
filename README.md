@@ -26,13 +26,10 @@ sinica-econ-admin-procedures/
 └── setup/            ← 各家 AI 工具的安裝輔助檔
 ```
 
-> **關於可見性**：`procedures/contacts.md` 的所內承辦人姓名與分機，經濟所系網已公開；
-> repo 內也不含任何個資（老師姓名、經費金額、計畫代碼一律在未進版控的 `lab-profile/`，
-> Word 範本已去識別化並清除中介資料）。因此 Public 或 Private 皆可，依研究室偏好決定。
->
-> 唯一非經濟所系網來源的聯絡資訊是 `contacts.md` 第五節的院外窗口（行政院主計總處
-> 國勢普查處承辦人姓名與直撥電話，該流程現已停辦、僅留參考）；若要設 Public，可先確認
-> 或直接刪除該節。
+> **關於可見性**：Public 或 Private 皆可，依研究室偏好決定。
+> `procedures/contacts.md` 的所內承辦人姓名與分機，經濟所系網已公開；
+> 其餘個資（老師姓名、經費金額、計畫代碼）一律在未進版控的 `lab-profile/`，
+> Word 範本也已去識別化並清除 Office 中介資料，repo 內不含未公開的個人資料。
 
 ---
 
