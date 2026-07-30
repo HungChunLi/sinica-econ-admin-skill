@@ -1,0 +1,6 @@
+.DS_Store
+
+# 研究室私人設定：老師姓名、經費金額、計畫代碼、訂閱帳號等。
+# 只排除「數字開頭」的年度設定檔（lab-profile-2026.md、lab-profile-2026-3.md …）。
+# 範本 lab-profile/lab-profile-example.md 不受此規則影響，會正常進版控。
+lab-profile/lab-profile-[0-9]*.md
