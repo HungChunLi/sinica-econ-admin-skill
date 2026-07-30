@@ -1,4 +1,4 @@
-# sinica-econ-admin-procedures
+# sinica-econ-admin-skill
 
 **中央研究院經濟研究所**研究室的行政流程知識庫，整理自某研究室「專任助理交接—行政支援」簡報。
 不綁定特定計畫主持人，**任何經濟所研究室都可以直接使用**；也**不綁定特定 AI 工具**，
@@ -17,7 +17,7 @@ Claude、Codex、GitHub Copilot、Cursor、Gemini CLI 都能讀同一份內容�
 ## 資料夾結構
 
 ```
-sinica-econ-admin-procedures/
+sinica-econ-admin-skill/
 ├── SKILL.md          ← 入口（Claude / Copilot）：總覽、共通規則、路由表
 ├── AGENTS.md         ← 入口（Codex / Cursor / Gemini CLI），內容同源
 ├── procedures/       ← 流程細節，一個主題一個檔（請購、報帳、差旅、聘僱、公文…）
@@ -84,8 +84,8 @@ AI 一律讀**最新那一檔**，所以你只要新增檔案，不用去改任�
 ```powershell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills"
 cd "$env:USERPROFILE\.claude\skills"
-git clone https://github.com/<帳號>/sinica-econ-admin-procedures.git
-cd sinica-econ-admin-procedures
+git clone https://github.com/<帳號>/sinica-econ-admin-skill.git
+cd sinica-econ-admin-skill
 Copy-Item lab-profile\lab-profile-example.md lab-profile\lab-profile-2026.md   # 然後填寫
 ```
 
@@ -93,8 +93,8 @@ Copy-Item lab-profile\lab-profile-example.md lab-profile\lab-profile-2026.md   #
 ```bash
 mkdir -p ~/.claude/skills
 cd ~/.claude/skills
-git clone https://github.com/<帳號>/sinica-econ-admin-procedures.git
-cd sinica-econ-admin-procedures
+git clone https://github.com/<帳號>/sinica-econ-admin-skill.git
+cd sinica-econ-admin-skill
 cp lab-profile/lab-profile-example.md lab-profile/lab-profile-2026.md   # 然後填寫
 ```
 
@@ -106,7 +106,7 @@ cp lab-profile/lab-profile-example.md lab-profile/lab-profile-2026.md   # 然後
 ### 步驟二：接上你用的 AI 工具
 
 各工具只需設定一次。下面 `<skill 路徑>` 指的是上一步 clone 出來的資料夾絕對路徑，例如
-`C:\Users\你的帳號\.claude\skills\sinica-econ-admin-procedures`。
+`C:\Users\你的帳號\.claude\skills\sinica-econ-admin-skill`。
 
 #### Claude Code
 
@@ -191,8 +191,8 @@ git config --global user.name "你的名字"
 git config --global user.email "你的email"
 
 # 2. 下載整個 skill 到本機
-git clone https://github.com/<帳號>/sinica-econ-admin-procedures.git
-cd sinica-econ-admin-procedures
+git clone https://github.com/<帳號>/sinica-econ-admin-skill.git
+cd sinica-econ-admin-skill
 ```
 
 > 若 repo 是 Private，push/pull 時 GitHub 會要求登入。密碼欄請貼 **Personal Access Token**
@@ -204,7 +204,7 @@ cd sinica-econ-admin-procedures
 別人（或你在另一台電腦）改過內容後，先拉最新版再開始編輯，避免衝突：
 
 ```bash
-cd sinica-econ-admin-procedures
+cd sinica-econ-admin-skill
 git pull
 ```
 
