@@ -4,3 +4,7 @@
 # 只排除「數字開頭」的年度設定檔（lab-profile-2026.md、lab-profile-2026-3.md …）。
 # 範本 lab-profile/lab-profile-example.md 不受此規則影響，會正常進版控。
 lab-profile/lab-profile-[0-9]*.md
+
+# 原始會計簡報：內含真實姓名、身分證字號、戶籍地址、簽名與官防章戳等未去識別化的
+# 掃描頁面，不可上傳 GitHub。內容已整理進 procedures/ 各檔案，此檔僅供本機比對查核用。
+procedures/會計作業流程.pdf

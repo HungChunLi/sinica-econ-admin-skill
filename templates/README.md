@@ -15,10 +15,11 @@
 | 檔名 | 用途 | 對應章節 | 備註 |
 | --- | --- | --- | --- |
 | `請購單.docx` | 一般科研採購請購單空白範本(15 萬以內) | `../procedures/procurement.md` 一、 | 可直接開啟填寫，不必每次到所內專區重下載 |
-| `請購單-(電子勞務-品項增列扣繳營所稅).docx` | 訂閱制軟體(電子勞務)專用請購單 | `../procedures/procurement.md` 四、電子勞務請購 | 已內建代扣繳營所稅 20% 的品項欄位與試算 |
-| `核銷單-(電子勞務-品項增列扣繳營所稅).pdf` | 電子勞務專用支出憑證黏存單 | `../procedures/reimbursement.md`、`../procedures/procurement.md` 四、 | 內建墊付金額與代扣繳營所稅額(T)計算流程 |
-| `契約書範本(空白).doc` | 勞務承攬契約書 | `../procedures/part-time-assistant.md` 一、 | 助理人在國外保留第 22 條電子簽名條款，人在國內刪除 |
-| `具結書範本(空白).doc` | 勞務承攬第一次報帳附件 | `../procedures/part-time-assistant.md` 1.3、1.6 | 由被聘請的助理簽名；日期寫契約開始日 |
+| `請購單-(電子勞務-品項增列扣繳營所稅).docx` | 訂閱制軟體(電子勞務)專用請購單 | `../procedures/procurement.md` 五、電子勞務請購 | 已內建代扣繳營所稅 20% 的品項欄位與試算 |
+| `核銷單-(電子勞務-品項增列扣繳營所稅).pdf` | 電子勞務專用支出憑證黏存單 | `../procedures/reimbursement.md`、`../procedures/procurement.md` 五、 | 內建墊付金額與代扣繳營所稅額(T)計算流程 |
+| `契約書範本(空白).doc` | 勞務承攬契約書 | `../procedures/part-time-assistant.md` 一、 | 內含第 22 條電子簽名條款；助理人在國外保留，人在國內請手動刪除 |
+| `契約書範本(空白_電子簽章版).doc` | 勞務承攬契約書(國外電子簽章版，已內建第 22 條) | `../procedures/part-time-assistant.md` 1.2 | 助理人在國外時可直接用這份，不必自己補第 22 條 |
+| `具結書範本(空白).doc` | 勞務承攬簽約時附件 | `../procedures/part-time-assistant.md` 1.3、1.5 | 由被聘請的助理在**簽約當下**簽名；日期寫契約開始日；**不是**核銷/報帳附件 |
 | `簽到表範本(空白).docx` | 勞務承攬每月簽到表 | `../procedures/part-time-assistant.md` 1.4 | 含每天上下班時間與簽名欄(需間隔 9 小時) |
 | `收據範本(勞務承攬-含補充保費).doc` | 國科會經費支付勞務承攬時使用的收據 | `../procedures/part-time-assistant.md` 1.4、1.6 | 含計畫代碼、已代扣/不須代扣補充保費欄位 |
 | `受領人清冊範本(勞務承攬).docx` | 所方或院內主題計畫支付勞務承攬時使用 | `../procedures/part-time-assistant.md` 1.4、1.6 | 含應領金額、補充保費、實領金額欄位 |
